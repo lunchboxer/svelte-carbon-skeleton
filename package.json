@@ -1,0 +1,36 @@
+{
+  "name": "svelte-carbon-skeleton",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview",
+    "prepare": "svelte-kit sync",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "carbon-components-svelte": "^0.60.0",
+    "carbon-icons-svelte": "^10.44.4",
+    "carbon-preprocess-svelte": "^0.6.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-svelte3": "^3.4.1",
+    "eslint-plugin-unicorn": "v40.1",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "stylelint-config-recommended": "^7.0.0",
+    "svelte": "^3.44.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "remove": "^0.1.5"
+  }
+}
